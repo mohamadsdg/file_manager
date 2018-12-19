@@ -1,0 +1,67 @@
+
+body, table {
+    font-family: tahoma;
+    font-size: 14px;
+}
+
+a, a:visited {
+    color: #1887e5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #555;
+}
+
+.back a {
+    color: brown !important;
+}
+
+ul {
+    list-style: none;
+    line-height: 22px;
+}
+
+li {
+    margin: 3px 0 0 0;
+}
+
+li:hover {
+    background-color: #f7f7f7 !important;
+}
+
+li.file, li.folder, li.png, li.gif, li.jpg, li.back {
+    padding-left: 24px;
+    color: #e6981c;
+}
+
+li.file {
+    background: transparent url("../image/file.png") no-repeat left 3px;
+}
+
+li.folder {
+    color: #e6981c !important;
+    background: transparent url("../image/folder.png") no-repeat left 3px;
+}
+
+li.back {
+    background: transparent url("../image/back.png") no-repeat left 3px;
+}
+
+span.filename, .actions {
+    min-width: 300px;
+    display: inline-block;
+}
+
+.png, .jpg, .gif {
+    background: transparent url("../image/img.png") no-repeat left 3px !important;
+}
+.htm,.html {
+    background: transparent url("../image/html.png") no-repeat left 3px !important;
+}
+
+div.msg {
+    background-color: #ffd179;
+    padding: 7px;
+    margin: 10px;
+}
